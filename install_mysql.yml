@@ -3,7 +3,7 @@
   hosts: mysql_servers
   become: yes
   vars:
-    mysql_root_password: 'your_new_password_here'
+    mysql_root_password: 'Sazal123'
 
   tasks:
     - name: Update apt cache
