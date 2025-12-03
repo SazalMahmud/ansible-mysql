@@ -42,5 +42,3 @@ jobs:
     - name: Run Ansible Playbook
       run: |
         ansible-playbook -i hosts.ini install_mysql.yml
-git config --global user.email "<your-email>"
-git config --global user.name "<Your-username>"
